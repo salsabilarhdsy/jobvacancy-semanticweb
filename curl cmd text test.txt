@@ -1,0 +1,1 @@
+curl https://{subdomain}.zendesk.com/api/v2/users/me.json ^-v -u {email_address}:{password}
