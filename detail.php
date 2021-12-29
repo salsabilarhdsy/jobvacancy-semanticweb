@@ -17,7 +17,7 @@
         EasyRdf\RdfNamespace::set('dc', 'http://purl.org/dc/elements/1.1/');
         EasyRdf\RdfNamespace::set('jbv', 'http://www.jobvacancy.fakeurl.com/vocab#');
 
-        $newturtle = new \EasyRdf\Graph("https://salsabilarhdsy.github.io/job_vacancy.ttl");
+        $newturtle = new \EasyRdf\Graph("https://salsabilarhdsy.github.io/semantic-web-data/job_vacancy.ttl");
         $newturtle ->load();
         $jobvacancy = $newturtle->resourcesMatching('dc:title');
         
